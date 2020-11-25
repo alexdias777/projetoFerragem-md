@@ -1,0 +1,82 @@
+/*A pagina carrinho.html está demorando muito a carregar, sabe me dizer como resolvo isto?*/
+
+.carousel{
+	padding-top: 19px;
+}
+
+.menu-superior{
+	font-weight: bold;
+	background-color: red;
+
+}
+
+
+
+.menu-superior li{
+	color: white;
+
+
+}
+
+
+.menu-superior li a{
+	border-left: 1px solid white;
+	
+}
+
+
+.carousel{
+	max-width: 1100px;
+}
+
+main{
+ min-height: 100px;
+}
+
+.icon-bar {
+	color: black;
+}
+
+.botao-sanduiche{
+	padding-bottom: -5px;
+}
+
+.navbar-header button:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+
+@media(max-width:768px) {
+    .carousel {
+    	padding-top: 70px; /* Preenchimento obrigatório para .navbar-fixed-top. Altere se a altura da navegação mudar. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+    	  
+        padding: 5px 0;
+    }
+}
+
+.produtos img{
+	width: 100%;
+}
+
+.produtos label{
+	font-size: 18px;
+}
+
+/*Configurando carrinho de compras*/
+
+#compras{
+	margin-top: 20px;
+	max-width: 1100px;
+}
+div.panel.panel-info{
+	max-width: 935px; /*Preciso de ajuda aqui, não estou conseguindo fazer com que cubra todo ao espaço e
+	 fique alinhado com o banner, sem ser colocando em pixel,  Ex:width: 935px;  Más dai ele perde a fluidez?    */
+}
+p{
+	text-align: justify;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 10pt;
+	padding-left: 25px;
+}
