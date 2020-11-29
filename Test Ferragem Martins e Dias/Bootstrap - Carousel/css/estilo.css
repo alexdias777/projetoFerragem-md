@@ -1,5 +1,5 @@
 /*A pagina carrinho.html está demorando muito a carregar, sabe me dizer como resolvo isto?*/
-
+	
 .carousel{
 	padding-top: 19px;
 }
@@ -31,6 +31,7 @@
 
 main{
  min-height: 100px;
+
 }
 
 .icon-bar {
@@ -70,9 +71,9 @@ main{
 	margin-top: 20px;
 	max-width: 1100px;
 }
-div.panel.panel-info{
-	max-width: 935px; /*Preciso de ajuda aqui, não estou conseguindo fazer com que cubra todo ao espaço e
-	 fique alinhado com o banner, sem ser colocando em pixel,  Ex:width: 935px;  Más dai ele perde a fluidez?    */
+.panel.panel-info{
+	 margin-left:40px ;
+	 
 }
 p{
 	text-align: justify;
